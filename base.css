@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(117, 117, 117);
+    padding: 10px 20px 0px;
+    color: white;
+}
+.header {
+    background-color: rgb(117, 117, 117);
+    min-height: 150px;
+    height: 100px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(117, 117, 117);
+    min-height: 150px;
+}
+#logotipo {
+    height: 250px;
+    margin-top: -60px;
+    margin-inline: 300px;
+}
+table {
+    background-color: rgb(226, 225, 225);
+    border: solid 1px white;
+    -webkit-box-shadow: -2px 2px 41px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 41px -3px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 41px -3px rgba(0,0,0,0.75);
+    margin-inline: 120px;
+    height: 350px;
+    width: 750px;
+}
+table thead th {
+    background-color: gray;
+    color: white;
+}
+table tbody tr:nth-child(even) td {
+    background-color: lightgray;
+}
+.formulario {
+    display: block;
+    width: 1px;
+    margin-inline: 350px;
+}
+fieldset {
+    color: #000000;
+    border-color: darkcyan;
+    width: px;
+    height: auto;
+    border-radius: 5%;
+    margin-top: auto;
+}
+textarea {
+    resize: none;
+    width: 171px;
+}
+select {
+    width: 175px;
+}
+iframe {
+    margin-inline: 150px;
+}
